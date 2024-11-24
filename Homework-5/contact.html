@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Page</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+  </head>
+  <!--### Contact Page (contact.html)
+
+- Contact form
+- Location information
+- Business hours-->
+  <body>
+    <h1>Contact</h1>
+    <nav>
+      <div class="topnav-1">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <br />
+      <form action="">
+        <input type="radio" name="gender" id="female" />
+        <label for="gender">Female</label>
+        <br />
+        <input type="radio" name="gender" id="male" />
+        <label for="gender">Male</label>
+        <br />
+        <label for="name">Name</label>
+        <input type="text" name="form" id="name" required />
+        <br />
+        <label for="surname">Surname</label>
+        <input type="text" name="form" id="surname" required />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <input type="checkbox" name="newsletter" id="newsletter" />
+        <label for="newsletter"
+          >Woud you like us to send you an email with the new releases?</label
+        >
+        <br />
+        <label for="text">Enter your message here</label>
+        <br />
+        <textarea name="text" id="text" cols="50" rows="10" required></textarea>
+        <br />
+        <input type="submit" value="send" />
+      </form>
+      <br />
+      <br />
+      <h2>Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42997577.20376387!2d-71.04127510000002!3d48.87034010000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d848dffae03%3A0xabef8c43cef35ba5!2sMarvel%20Design%20Studio!5e0!3m2!1sen!2smk!4v1732456379967!5m2!1sen!2smk"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="opening-hours">
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>
+            Monday - Friday:
+            <span style="color: green">8AM - 4PM</span>
+          </li>
+          <li>Saturday <span style="color: green">8AM-2AM</span></li>
+          <li>Sunday <span style="color: red">Closed</span></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
